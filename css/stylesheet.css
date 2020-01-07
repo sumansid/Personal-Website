@@ -1,0 +1,446 @@
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+.icons a{
+
+	margin:15px;
+
+}
+.icons a img{
+	width:50px;
+}
+.newclass a:link, a:visited{
+	color:black;
+
+}
+
+/* Loader... */
+.loader{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin:0;
+	padding: 0;
+	color: transparent;
+	font-family: 'Poppins', sans-serif;
+}
+.loader:before{
+	content: attr(data-text);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	overflow: hidden;
+	border-right: 1px solid #000;
+	animation: type 2s steps(5) infinite;
+	white-space: nowrap;
+}
+@keyframes type{
+	0%
+	{
+		width: 0;
+	}
+	50%
+	{
+		width: 100%;
+	}
+	100%
+	{
+		width: 0;
+	}
+}
+
+
+.header {
+	width: 100%;
+	max-width: 100%;
+	
+}
+.link_change :
+	a {
+    color: #0060B6;
+    text-decoration: none;
+	}
+
+	a:hover 
+	{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+	}
+.rectangle {
+	/* Rectangle 3 */
+	position: absolute;
+	/*width: 1000px;*/
+	width: 80%;
+	max-width: 80%;
+	height: 700px;
+	margin-left: 10%;
+	/*left: 184px;*/
+	/*right: 184px;*/
+	top: 47px;
+	background: #F4F4F4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 53px;
+	padding: 20px;
+	margin-bottom: 25px;
+	
+}
+
+.nav {
+	list-style-type: none;
+	display: flex;
+	width:100%;
+	
+
+}
+.nav>li {
+	margin-left: 10%;
+	margin-top: -180px;
+}
+.nav li a {
+	text-decoration: none;
+	color: #000;
+}
+.nav li a .active {
+	color: #8D8B8B!important;
+}
+.image img {
+	width: 250px;
+
+	height:250px;
+
+	/*left: 370px;*/
+	/*top: 216px;
+	margin-left: 38%;*/
+	border: 0px solid transparent;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 50%; 
+	
+}
+.image2 {
+	position: absolute;
+	width: 142px;
+	height: 146px;
+	left: 70px;
+	top: 19px;
+	background: url(../img/img2.jpg);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 71.5px;
+
+	
+
+}
+
+.text {
+	position: relative;
+
+	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	color: #000000;
+}
+/* Contact page. */
+.contact h1 {
+	font-weight: 600;
+	font-size: 35px;
+	text-align: center;
+	color: #000000;
+}
+form label {
+	font-weight: bold;
+}
+.form-element {
+	padding: 12px;
+	display: block;
+}
+.form-control {
+	position: absolute;
+	width: 90%;
+	background: #C4C4C4;
+}
+.submit {
+	position: absolute;	
+	padding: 25px;
+	color: #fff;
+	background: #0E0D0D;
+	border-radius: 35.5px;
+	margin-top: 170px;
+	float: right;
+	margin-right: 25px;
+}
+/* About page. */
+.box1 {
+	background: #C4C4C4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+	padding: 8px;
+}
+.box1 p {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 45px;
+	text-align: center;
+	color: #000000;
+
+}
+/* Digital Album page. */
+.main {
+	display: flex;
+	width: 100%;
+	margin-top: 25px;
+}
+.box {
+	width: 30%;
+	height: 200px;
+	background: #E6E6E6;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 40px;
+	margin: 25px;
+}
+.box h1 {
+	margin: 0;
+	padding: 0;
+	/*text-transform: uppercase;*/
+	text-align: center;
+	top: 50%;
+	position: relative;
+	font-size: 25px;
+}
+
+.text2 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 24px;
+	
+	text-align: center;
+	color: #000000;
+	padding-top: 3%;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 2560px) {
+	.nav  {
+		margin-left: 15%;
+	}
+	.nav li {
+		margin-top: -150px;
+	}
+	.nav li a {
+		font-size: 26px;
+	}
+	.box {
+		width: 30%;
+	}
+@media only screen and (max-width: 2015px) {
+	.nav  {
+		margin-left: 20%;
+	}
+	.nav li {
+		margin-top: -100px;
+	}
+	.nav li a {
+		font-size: 26px;
+	}
+
+}
+@media only screen and (max-width:1999px) {
+	.nav  {
+		margin-left: 15%;
+	}
+	.nav li {
+		margin-top: -70px;
+	}
+	.nav li a {
+		font-size: 26px;
+	}
+
+}
+@media only screen and (max-width: 1815px) {
+	.nav  {
+		margin-left: 25%;
+	}
+	.nav li {
+		margin-top: -120px;
+	}
+	.nav li a {
+		font-size: 26px;
+	}
+
+}
+@media only screen and (max-width: 1715px) {
+	.nav  {
+		margin-left: 25%;
+	}
+	.nav li {
+		margin-top: -150px;
+	}
+	.nav li a {
+		font-size: 26px;
+	}
+
+}
+
+@media only screen and (max-width: 1615px) {
+	.nav  {
+		margin-left: 10%;
+	}
+	.nav li {
+		margin-top: -150px;
+	}
+	.nav li a {
+		font-size: 26px;
+	}
+	.box {
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 1515px) {
+	.nav  {
+		margin-left: 10%;
+	}
+	.nav li {
+		margin-top: -150px;
+	}
+	.nav li a {
+		font-size: 26px;
+	}
+	.box {
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 1315px) {
+	.nav  {
+		margin-left: 10%;
+	}
+	.nav li {
+		margin-top: -130px;
+	}
+	.nav li a {
+		font-size: 22px;
+	}
+	.box {
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 1215px) {
+	.nav  {
+		margin-left: 10%;
+	}
+	.nav li {
+		margin-top: -120px;
+	}
+	.nav li a {
+		font-size: 20px;
+	}
+	.main {
+		display: block;
+	}
+	.box {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+@media only screen and (max-width: 1115px) {
+	.nav  {
+		margin-left: 10%;
+	}
+	.nav li {
+		margin-top: -100px;
+	}
+	.nav li a {
+		font-size: 18px;
+	}
+
+}
+@media only screen and (max-width: 1015px) {
+	.nav  {
+		margin-left: 10%;
+	}
+	.nav li {
+		margin-top: -80px;
+	}
+	.nav li a {
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 915px) {
+	.form-element {
+		display: block;
+	}
+	.image {
+		margin-left: 30%;
+	}
+	.nav  {
+		margin-left: 20%;
+	}
+	.nav li {
+		margin-top: -60px;
+	}
+	.nav li a {
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 815px) {
+  .image {
+	margin-left: 26%;
+  }
+  .text{
+  	margin-left: 22%;
+		top: 150px;
+
+  }
+}
+@media only screen and (max-width: 745px) {
+  .image {
+	margin-left: 24%;
+	top: 180px;
+  }
+	.nav  {
+		margin-left: 25%;
+	}
+	.nav li {
+		margin-top: -60px;
+	}
+	.nav li a {
+		font-size: 12px;
+	}
+	.text {
+		margin-left: 22%;
+		top: 150px;
+	}
+}
+@media only screen and (max-width: 615px) {
+	.image {
+		margin-left: 22%;
+		top: 150px;
+	}
+	.nav li a {
+		font-size: 17px;
+	}
+	.nav>li {
+		margin-left: 5%;
+	}
+	.text{
+		margin-left: 22%;
+		top: 150px;
+	}
+}

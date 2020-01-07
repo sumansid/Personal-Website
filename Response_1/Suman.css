@@ -1,0 +1,29 @@
+.font-type {
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+
+.split {
+
+	height: 100%;
+	width: 50%;
+	position: fixed
+}
+
+.left{
+	left: 0;
+	background-color: #7f8185;
+}
+
+.right{
+	right:0;
+	background-color: #2d87ed;
+}
+
+* {
+ font-size: 100%;
+ font-family: Arial;
+}
